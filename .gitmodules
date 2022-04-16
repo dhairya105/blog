@@ -1,0 +1,10 @@
+[submodule "dhairyaagrawal/public"]
+	path = dhairyaagrawal/public
+	url = https://github.com/dhairya105/dhairyaagrawal.git
+	branch = main
+[submodule "dhairyaagrawal/dhairyaagrawal/themes/mediumish-gohugo-theme"]
+	path = dhairyaagrawal/dhairyaagrawal/themes/mediumish-gohugo-theme
+	url = https://github.com/lgaida/mediumish-gohugo-theme.git
+[submodule "dhairyaagrawal/themes/mediumish-gohugo-theme"]
+	path = dhairyaagrawal/themes/mediumish-gohugo-theme
+	url = https://github.com/lgaida/mediumish-gohugo-theme.git
