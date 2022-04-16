@@ -2,3 +2,30 @@ baseURL = 'https://dhairyaagrawal.github.io/'
 languageCode = 'en-us'
 title = 'Dhairya Agrawal'
 theme = "mediumish-gohugo-theme"
+copyright ="Dhairya Agrawal - All rights reserved"
+[params]
+  logo = "/images/logo.png"
+
+[params.index]
+  picture = "/images/dhairya.png"
+  title = "Dhairya Agrawal"
+  subtitle = "Welcome to my blog"
+  mdtext = ''''''
+  alertbar = true
+
+[params.author]
+  name = "Dhairya Agrawal"
+  thumbnail = "/images/dhairya.png"
+  description = "Creator of this blog."
+  
+  # Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
